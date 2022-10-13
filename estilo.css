@@ -1,0 +1,41 @@
+body{
+    background-image: linear-gradient(to right, #bbd2c5, #536976, #292e49) ;
+   margin: 0px;
+   padding: 5px 5px 500px;
+text-align: center;
+    
+}
+
+#logo{
+    padding: 30px;
+    margin: auto;
+    max-width: 457px;
+}
+#navegaçao{
+display: flex;
+justify-content:space-around;
+
+}
+::marker{
+    color: brown;
+}
+details{
+    cursor: pointer;
+}
+h2{
+    
+    color: rgb(219, 120, 38);
+    padding: 9px;
+    font-family: 'Silkscreen', cursive;
+}
+.escrita{
+    margin: 50px;
+    padding: 40px;
+
+}
+.conteudo{
+   
+    text-align: center;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
