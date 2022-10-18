@@ -13,8 +13,6 @@ text-align: center;
 }
 #navegaçao{
 display: flex;
-justify-content:space-around;
-
 }
 ::marker{
     color: brown;
@@ -22,20 +20,37 @@ justify-content:space-around;
 details{
     cursor: pointer;
 }
-h2{
+h2, .legenda{
     
     color: rgb(219, 120, 38);
     padding: 9px;
     font-family: 'Silkscreen', cursive;
+    font-size: 2rem;
 }
-.escrita{
-    margin: 50px;
-    padding: 40px;
 
+#escrita{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 109%;
+  
 }
+
 .conteudo{
    
     text-align: center;
-   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin: 40px;
+   color: rgb(58, 40, 23);
+   font-size: 150%;
 }
 
+
+img{
+    max-width: 480px;
+}
+#curiosidades-1{
+   font-family:  'Silkscreen', cursive;
+   
+}
