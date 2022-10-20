@@ -10,15 +10,34 @@ text-align: center;
     padding: 30px;
     margin: auto;
     max-width: 457px;
+    cursor: pointer;
 }
 #navegaçao{
 display: flex;
+flex-direction: row;
+gap: 50px;
+
 }
+
+
 ::marker{
-    color: brown;
+    color: rgb(165, 42, 42);
+}
+a{
+    color: white;
+    padding: 20px;
+    margin: 5px;
+   
+    justify-content: space-around;
+    border-radius: 50px;
 }
 details{
     cursor: pointer;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgba(32, 32, 32, 0.829);
+    
+    border-color: aqua;
 }
 h2, .legenda{
     
@@ -34,9 +53,8 @@ h2, .legenda{
     margin: 40px;
     color: rgb(255, 255, 255);
     font-size: 109%;
-  
+   
 }
-
 .conteudo{
    
     text-align: center;
@@ -44,6 +62,11 @@ h2, .legenda{
    margin: 40px;
    color: rgb(58, 40, 23);
    font-size: 150%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   max-width: 999px;
+   margin: 0 auto;
 }
 
 
