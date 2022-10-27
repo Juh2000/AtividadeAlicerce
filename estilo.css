@@ -1,41 +1,58 @@
 body{
     background-image: linear-gradient(to right, #bbd2c5, #536976, #292e49) ;
-   margin: 0px;
-   padding: 5px 5px 500px;
-text-align: center;
+   margin: 0 auto;
+   padding: 0;
+   min-width: 800px;
+   max-width: 1900px;
+   text-decoration: none;
+
+   text-align: center;
+   display: block;
+
     
+}
+nav > img{
+    max-width: 100%;
+    justify-content: space-around;
 }
 
 #logo{
-    padding: 30px;
-    margin: auto;
-    max-width: 457px;
+    margin: 20px 150px;
+    max-width: 500px;
     cursor: pointer;
 }
 #navegaçao{
 display: flex;
-flex-direction: row;
-gap: 50px;
-
+flex-direction: row-reverse;
 }
+
+
+#container{
+    background-color: rgb(54, 53, 53);
+    min-width: 100%;
+    max-width: 1800px;
+}
+
 
 
 ::marker{
     color: rgb(165, 42, 42);
 }
-a{
-    color: white;
-    padding: 20px;
+a {
+    color: rgb(255, 255, 255);
     margin: 5px;
-   
-    justify-content: space-around;
-    border-radius: 50px;
+    text-decoration: none;
+    cursor: pointer;
+}
+summary{
+    cursor: pointer;
 }
 details{
-    cursor: pointer;
+    
     padding: 20px;
     border-radius: 50px;
-    background-color: rgba(32, 32, 32, 0.829);
+    font-size: 120%;
+    margin: 40px;
     
     border-color: aqua;
 }
@@ -59,21 +76,40 @@ h2, .legenda{
    
     text-align: center;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   margin: 40px;
    color: rgb(58, 40, 23);
    font-size: 150%;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   max-width: 999px;
+   max-width: 900px;
    margin: 0 auto;
 }
 
 
 img{
     max-width: 480px;
+    min-width: 20%;
 }
 #curiosidades-1{
    font-family:  'Silkscreen', cursive;
+   margin: 0 auto;
+   padding: 0 auto;
+   max-width: 900px;
    
 }
+fieldset{
+   
+    border-radius: 20px 90px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(36, 35, 35);
+    margin: 0 auto;
+    padding: 0;
+    min-width: 800px;
+    max-width: 1900px;
+    
+    display: block;
+}
+ footer > p{
+    font-family: 'Silkscreen', cursive;
+}
+
