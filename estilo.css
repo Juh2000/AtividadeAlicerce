@@ -117,4 +117,7 @@ fieldset{
  footer > p{
     font-family: 'Silkscreen', cursive;
 }
+fieldset > footer > p > a{
+    color: #f8a710;
+}
 
