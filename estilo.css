@@ -17,13 +17,17 @@ nav > img{
 }
 
 #logo{
-    margin: 20px 150px;
+    margin: 10px;
     max-width: 500px;
     cursor: pointer;
 }
 #navegaçao{
 display: flex;
-flex-direction: row-reverse;
+flex-direction: row;
+gap: 20px;
+margin: 0 auto;
+padding: 0 auto;
+width: 800px;
 }
 
 
@@ -31,6 +35,7 @@ flex-direction: row-reverse;
     background-color: rgb(54, 53, 53);
     min-width: 100%;
     max-width: 1800px;
+    
 }
 
 
