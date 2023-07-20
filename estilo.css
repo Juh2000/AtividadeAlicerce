@@ -66,7 +66,7 @@ h2, .legenda{
     color: rgb(219, 120, 38);
     padding: 9px;
     font-family: 'Silkscreen', cursive;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #escrita{
@@ -92,8 +92,9 @@ h2, .legenda{
 
 
 img{
-    max-width: 480px;
+    max-width: 380px;
     min-width: 20%;
+    border-radius: 10px;
 }
 #curiosidades-1{
    font-family:  'Silkscreen', cursive;
@@ -116,6 +117,7 @@ fieldset{
 }
  footer > p{
     font-family: 'Silkscreen', cursive;
+    color: aliceblue;
 }
 fieldset > footer > p > a{
     color: #f8a710;
